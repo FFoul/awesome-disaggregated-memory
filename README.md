@@ -6,7 +6,7 @@ A list of awesome researchers and papers about disaggregated memory.
 - [Papers](#papers)
   - [Survey/Vision Papers](#surveyvision-papers)
   - [OS](#os)
-  - [Software/Language Runtime](#softwarelanguage-runtime)
+  - [💡Software/Language Runtime](#softwarelanguage-runtime)
   - [Data structures](#data-structures)
   - [Storage Systems](#storage-systems)
   - [Databases](#databases)
@@ -28,6 +28,7 @@ A list of awesome researchers and papers about disaggregated memory.
 - [Chenxi Wang](http://web.cs.ucla.edu/~wangchenxi/)
 - [Qizhen Zhang](https://qizhenzhang.me/)
 - [Huaicheng Li](https://huaicheng.github.io/)
+- [Diyu Zhou](https://zhou-diyu.github.io/)
 
 # Papers
 ## Survey/Vision Papers
@@ -69,20 +70,26 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     
                                |
 
-## Software/Language Runtime
+## 💡Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
 | ---- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 2014 | NSDI    | [FaRM: Fast Remote Memory](https://www.usenix.org/conference/nsdi14/technical-sessions/dragojevi%C4%87)                  |    |
+| 2015 | ATC     | [Latency-Tolerant Software Distributed Shared Memory](https://www.usenix.org/conference/atc15/technical-session/presentation/nelson)          | [link](https://grappa.io/) |
+| 2018 | VLDB    | [Efficient distributed memory management with RDMA and caching](https://dl.acm.org/doi/abs/10.14778/3236187.3236209)                      | [link](https://github.com/ooibc88/gam) [ae_link](https://github.com/charles-typ/mind_ae_gam.git)  |
 | 2020 | OSDI    | [AIFM: High-Performance, Application-Integrated Far Memory](https://www.usenix.org/conference/osdi20/presentation/ruan)                                                            | [link](https://github.com/AIFM-sys/AIFM)           |
 | 2020 | OSDI    | [Semeru: A Memory-Disaggregated Managed Runtime](https://www.usenix.org/conference/osdi20/presentation/wang)                                                                       | [link](https://github.com/uclasystem/Semeru)       |
 | 2022 | OSDI    | [MemLiner: Lining up Tracing and Application for a Far-Memory-Friendly Runtime](https://www.usenix.org/conference/osdi22/presentation/wang)                                        | [link](https://github.com/uclasystem/MemLiner)     |
 | 2022 | OSDI    | [Carbink: Fault-Tolerant Far Memory](https://www.usenix.org/conference/osdi22/presentation/zhou-yang)                                                                              |                                                    |
 | 2022 | PLDI    | [Mako: a low-pause, high-throughput evacuating collector for memory-disaggregated datacenters](https://dl.acm.org/doi/abs/10.1145/3519939.3523441)                                 | [link](https://github.com/uclasystem/Mako)         |
 | 2023 | SIGCOMM | [Cowbird: Freeing CPUs to Compute by Offloading the Disaggregation of Memory](https://vincen.tl/files/chen23cowbird.pdf)                                                                                                    |                                                    |
+| 2023 | SOSP    | [Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory](https://dl.acm.org/doi/10.1145/3600006.3613135)             | [link](https://github.com/madsys-dev/sosp-paper19-ae)          |
 | 2024 | ASPLOS  | [Scaling Up Memory Disaggregated Applications with Smart](https://dl.acm.org/doi/pdf/10.1145/3617232.3624857)                                                                                                                        | [link](https://github.com/madsys-dev/smart)        |
 | 2024 | NSDI    | [Harvesting Idle Memory for Application-Managed Soft State with Midas](https://web.cs.ucla.edu/~harryxu/papers/midas-nsdi24.pdf)                                                   | [link](https://github.com/uclasystem/midas)        |
 | 2024 | ASPLOS  | [TrackFM: Far-out Compiler Support for a Far Memory World](https://dl.acm.org/doi/pdf/10.1145/3617232.3624856)                                                                     | [link](https://github.com/compiler-disagg/TrackFM) |
 | 2024 | OSDI    | [A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications](https://www.usenix.org/conference/osdi24/presentation/chen-lei)                            |            [link](https://github.com/wangchenxi7/Atlas)                                        |
 | 2024 | OSDI    | [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/conference/osdi24/presentation/ma-haoran) |          [link](https://github.com/uclasystem/DRust)                                          |
+
+
 
 ## Data structures
 | Year | Conf.  | Paper                                                                                                                                                        | Code                                          |
